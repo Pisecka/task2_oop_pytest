@@ -9,9 +9,9 @@ class Square(Figure):
     def area(self):
         return self.a ** 2
 
+    def perimeter(self):
+        return self.a * 4
 
 
 
-
-    
 s1 = Square('square', 7)

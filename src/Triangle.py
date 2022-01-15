@@ -13,6 +13,10 @@ class Triangle(Figure):
         S= (p*(p-self.a)*(p-self.b)*(p-self.c))**0.5
         return S
 
+    def perimeter(self):
+        return self.a + self.b + self.c
+
+
 
 
 t1 = Triangle('triangle', 7, 10, 15)

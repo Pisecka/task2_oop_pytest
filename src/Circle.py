@@ -11,7 +11,8 @@ class Circle(Figure):
     def area(self):
         return math.pi * self.radius * self.radius
 
-
+    def perimeter(self):
+        return 2 * math.pi * self.radius
 
 
 
