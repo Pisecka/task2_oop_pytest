@@ -7,3 +7,6 @@ class Rectangle(Figure):
         super().__init__(name)
         self.a = a
         self.b = b
+
+    def area(self):
+        return self.a * self.b

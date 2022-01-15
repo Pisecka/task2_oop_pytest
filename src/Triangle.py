@@ -7,3 +7,12 @@ class Triangle(Figure):
         self.a = a
         self.b = b
         self.c = c
+
+    def area(self):
+        p = (self.a + self.b + self.c)/2
+        S= (p*(p-self.a)*(p-self.b)*(p-self.c))**0.5
+        return S
+
+
+
+t1 = Triangle('triangle', 7, 10, 15)
